@@ -1,6 +1,7 @@
 # SkillSwap
 # Backend Technology Stack
-# Server Runtime: Node.js (v18+) - JavaScript runtime built on Chrome's V8 engine
+# Server Runtime: 
+Node.js (v18+) - JavaScript runtime built on Chrome's V8 engine
  
 # Web Framework:Express.js - Minimalist web framework for Node.js
 
@@ -9,7 +10,7 @@
 
 2. API Features:
 
-3.  RESTful API design
+3. RESTful API design
 
 4. JWT authentication
 
