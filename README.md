@@ -65,12 +65,13 @@ The platform is designed to be fully responsive, making it easy to browse, conne
 🖼️ User Profile Photos and Ratings  
 
 ## 🤖 Tech Stack
+The SkillSwap platform is built using a modern tech stack with React and TypeScript on the frontend, powered by Vite for fast development. The UI leverages Tailwind CSS for styling combined with Headless UI components, while state management is handled efficiently with Zustand. For forms and validation, we use React Hook Form with Zod schemas. The backend runs on Node.js with Express, featuring MongoDB for data storage via Mongoose, and uses JWT for secure authentication. API communication is managed through Axios with proper interceptors for error handling. The project includes comprehensive testing with Vitest and React Testing Library, along with developer tools like ESLint, Prettier, and Husky for code quality.
 
 
 ## 🚀 Getting Started
 Clone the repository:
 ```
-git clone https://github.com/your-username/SkillSwap.git
+git clone https://github.com/Shoaib3136/SkillSwap.git
 cd SkillSwap
 ```
 
@@ -101,3 +102,5 @@ Check out a quick walkthrough of the Skill Swap Platform in action:
 ## 📬 Contact
 shaikshoaibnawaz786@gmail.com
 srinathmunagala2918@gmail.com
+naginenirohith.829@gmail.com
+koti.saisankar0505@gmail.com
