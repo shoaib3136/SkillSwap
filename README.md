@@ -1,26 +1,24 @@
 # SkillSwap
-Backend Technology Stack
-Server Runtime:
-Node.js (v18+) - JavaScript runtime built on Chrome's V8 engine
+# Backend Technology Stack
+# Server Runtime: Node.js (v18+) - JavaScript runtime built on Chrome's V8 engine
+ 
+# Web Framework:Express.js - Minimalist web framework for Node.js
 
-Web Framework:
-Express.js - Minimalist web framework for Node.js
+## Database:
+1. MongoDB with Mongoose ORM - Document-based NoSQL database with schema validation
 
-Database:
-MongoDB with Mongoose ORM - Document-based NoSQL database with schema validation
+2. API Features:
 
-API Features:
+3.  RESTful API design
 
-RESTful API design
+4. JWT authentication
 
-JWT authentication
+5. CORS enabled
 
-CORS enabled
+6. Rate limiting
 
-Rate limiting
+7. Request validation
 
-Request validation
-
-Error handling middleware
+8. Error handling middleware
 
 
