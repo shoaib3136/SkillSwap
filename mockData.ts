@@ -1,0 +1,135 @@
+import { User, SwapRequest } from '../types';
+
+export const mockUsers: User[] = [
+  {
+    id: '1',
+    name: 'Alex Johnson',
+    email: 'alex@example.com',
+    location: 'New York, NY',
+    profilePhoto: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    skillsOffered: ['React', 'JavaScript', 'Node.js', 'TypeScript'],
+    skillsWanted: ['Python', 'Machine Learning', 'Data Science'],
+    availability: ['Weekends', 'Evenings'],
+    isPublic: true,
+    role: 'user',
+    rating: 4.8,
+    completedSwaps: 12,
+    joinedDate: new Date('2023-06-15'),
+    isBanned: false
+  },
+  {
+    id: '2',
+    name: 'Sarah Chen',
+    email: 'sarah@example.com',
+    location: 'San Francisco, CA',
+    profilePhoto: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    skillsOffered: ['Python', 'Data Science', 'Machine Learning', 'SQL'],
+    skillsWanted: ['React', 'UI/UX Design', 'Figma'],
+    availability: ['Weekdays after 6PM', 'Saturday mornings'],
+    isPublic: true,
+    role: 'user',
+    rating: 4.9,
+    completedSwaps: 18,
+    joinedDate: new Date('2023-03-20'),
+    isBanned: false
+  },
+  {
+    id: '3',
+    name: 'Mike Rodriguez',
+    email: 'mike@example.com',
+    location: 'Austin, TX',
+    profilePhoto: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    skillsOffered: ['UI/UX Design', 'Figma', 'Adobe Creative Suite', 'Sketch'],
+    skillsWanted: ['Vue.js', 'Laravel', 'PHP'],
+    availability: ['Weekends', 'Tuesday evenings'],
+    isPublic: true,
+    role: 'user',
+    rating: 4.7,
+    completedSwaps: 9,
+    joinedDate: new Date('2023-08-10'),
+    isBanned: false
+  },
+  {
+    id: '4',
+    name: 'Admin User',
+    email: 'admin@skillswap.com',
+    location: 'Remote',
+    skillsOffered: ['Platform Management', 'Community Building'],
+    skillsWanted: [],
+    availability: ['24/7'],
+    isPublic: false,
+    role: 'admin',
+    rating: 5.0,
+    completedSwaps: 0,
+    joinedDate: new Date('2023-01-01'),
+    isBanned: false
+  },
+  {
+    id: '6',
+    name: 'Demo User',
+    email: 'demo@skillswap.com',
+    location: 'Demo City',
+    skillsOffered: ['Demo Skill'],
+    skillsWanted: ['Learning Demo'],
+    availability: ['Anytime'],
+    isPublic: true,
+    role: 'user',
+    rating: 4.5,
+    completedSwaps: 3,
+    joinedDate: new Date('2024-01-01'),
+    isBanned: false
+  },
+  {
+    id: '5',
+    name: 'Emily Davis',
+    email: 'emily@example.com',
+    location: 'Seattle, WA',
+    profilePhoto: 'https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    skillsOffered: ['Photography', 'Video Editing', 'Adobe Premiere', 'Photoshop'],
+    skillsWanted: ['Digital Marketing', 'SEO', 'Content Writing'],
+    availability: ['Weekends', 'Wednesday evenings'],
+    isPublic: true,
+    role: 'user',
+    rating: 4.6,
+    completedSwaps: 7,
+    joinedDate: new Date('2023-09-05'),
+    isBanned: false
+  }
+];
+
+export const mockSwapRequests: SwapRequest[] = [
+  {
+    id: '1',
+    requesterId: '1',
+    recipientId: '2',
+    offeredSkill: 'React',
+    requestedSkill: 'Python',
+    message: 'Hi Sarah! I\'d love to learn Python for data analysis. I can teach you React in return.',
+    status: 'pending',
+    createdAt: new Date('2024-01-15T10:30:00'),
+  },
+  {
+    id: '2',
+    requesterId: '3',
+    recipientId: '1',
+    offeredSkill: 'UI/UX Design',
+    requestedSkill: 'React',
+    message: 'Hey Alex! I\'m looking to improve my React skills. I can help you with UI/UX design.',
+    status: 'accepted',
+    createdAt: new Date('2024-01-10T14:20:00'),
+    updatedAt: new Date('2024-01-11T09:15:00')
+  },
+  {
+    id: '3',
+    requesterId: '2',
+    recipientId: '5',
+    offeredSkill: 'Data Science',
+    requestedSkill: 'Photography',
+    message: 'Hi Emily! I\'d like to learn photography basics. I can teach data science concepts.',
+    status: 'completed',
+    createdAt: new Date('2024-01-05T16:45:00'),
+    updatedAt: new Date('2024-01-12T18:30:00'),
+    rating: 5,
+    feedback: 'Emily was an amazing teacher! Very patient and knowledgeable.'
+  }
+];
