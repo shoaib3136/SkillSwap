@@ -70,8 +70,8 @@ The platform is designed to be fully responsive, making it easy to browse, conne
 ## 🚀 Getting Started
 Clone the repository:
 ```
-git clone https://github.com/your-username/skill-swap-platform.git
-cd skill-swap-platform
+git clone https://github.com/your-username/SkillSwap.git
+cd SkillSwap
 ```
 
 Install dependencies (for Node.js version):
@@ -94,11 +94,10 @@ Want to improve the platform or add new features? We'd love to have your help!
   3. Make your changes
   4. Submit a pull request
 
-## 📄 License
-This project is open-source and available under the MIT License. Feel free to use, modify, and share it.
 
 ## 🎥 Demo Video
 Check out a quick walkthrough of the Skill Swap Platform in action:
 
 ## 📬 Contact
-Feel free to contact 
+shaikshoaibnawaz786@gmail.com
+srinathmunagala2918@gmail.com
